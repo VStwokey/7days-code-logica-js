@@ -10,7 +10,7 @@ const listas = {
 
 if (pergunta.toLowerCase() === 'sim') {
     while (true) {
-        let categoria = prompt('Em qual categoria esta comida se encaixa? (' + categorias.join(', ') + ')');
+        let categoria = prompt('Em qual categoria você deseja adicionar uma comida? (' + categorias.join(', ') + ')');
 
         if (categorias.includes(categoria.toLowerCase())) {
             let comida = prompt('Digite o nome da comida:');
